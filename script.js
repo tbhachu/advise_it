@@ -1,4 +1,3 @@
-
 window.onload = uniqueToken;
 let out = document.getElementById('token');
 function uniqueToken() 
