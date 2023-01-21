@@ -1,3 +1,14 @@
+.logo-image > img {
+  height: 45px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
+}
+
+.navbar {
+  background-color: rgb(52, 145, 52);
+}
+
 .card {
     width: 300px;
     /* Add shadows to create the "card" effect */
