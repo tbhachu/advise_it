@@ -3,21 +3,42 @@
     ?>
     
     <!-- Token -->
-    <div class="container">
-        <h1>Quarterly plan</h1>
+    <div class="container text-center">
+      <h1>Quarterly Plan</h1><hr>
+      
+      <div class="container text-center">
         <p>Token: </p>
         <div id='token'>
           <!-- This div will display our generated token -->
         </div>
-    <div>
+      </div>
+    </div>
 
     <!-- Four quarters representing Fall, Winter, Spring and Summer -->
-    <div class="row">
-      <div class="col">Fall</div>
-      <div class="col">Winter</div>
-      <div class="col">Spring</div>
-      <div class="col">Summer</div>
+    <div class="container text-center">
+      <div class="row">
+        <div class="card">Fall<hr>
+          <div >
+            <textarea type="text"></textarea>
+          </div>
+        </div>  
+        <div class="card">Winter<hr>
+          <div>
+            <textarea type="text"></textarea>
+          </div>
+        </div>
+        <div class="card">Spring<hr>
+          <div class="center">
+            <textarea type="text"></textarea>
+          </div>
+        </div>
+        <div class="card">Summer<hr>
+          <div class="center">
+            <textarea type="text"></textarea>
+          </div>
+        </div>
     </div>
+    
 
 
     <?php
