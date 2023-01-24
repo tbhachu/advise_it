@@ -9,7 +9,7 @@
       </div>
       <br>
       <div class="container text-center">
-        <form action="planPage.php" method="post">
+        <form action="planPage.php">
           <button>Create New Plan</button>
         </form>
       </div>
