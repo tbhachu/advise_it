@@ -39,7 +39,12 @@
   
 
 footer {
-  height: 200px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  position:fixed;
+  bottom:0;
+  width:100%;
+  
 }
 
 textarea {
