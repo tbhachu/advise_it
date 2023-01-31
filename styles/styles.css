@@ -1,4 +1,4 @@
-.logo-image > img {
+.logo-image>img {
   height: 45px;
   overflow: hidden;
   margin-top: -6px;
@@ -13,7 +13,7 @@
   height: 40px;
   border-radius: 5px;
   background-color: #fce562;
-  margin:auto;
+  margin: auto;
 }
 
 .card {
@@ -21,30 +21,31 @@
   width: 240px;
   height: 250px;
   /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  border-radius: 5px; /* 5px rounded corners */
+  border-radius: 5px;
+  /* 5px rounded corners */
 }
-  
-  /* On mouse-over, add a deeper shadow */
+
+/* On mouse-over, add a deeper shadow */
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
-  
-  /* Add some padding inside the card container */
+
+/* Add some padding inside the card container */
 .container {
   padding: 2px 16px;
   justify-content: center;
 }
-  
+
 
 footer {
   padding-top: 10px;
   padding-bottom: 0px;
-  position:fixed;
-  bottom:0;
-  width:100%;
-  
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
 }
 
 textarea {

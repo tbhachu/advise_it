@@ -1,7 +1,7 @@
 
 
     <br>
-    <div class="container">
+    
     <footer class="bottom bg-dark text-white">
         <div class="container text-center text-md-left">
             <div class="row text-center text-md-left">
@@ -18,7 +18,7 @@
             </div>
         </div>
     </footer>
-    </div>
+    
     
 
 
