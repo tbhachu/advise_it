@@ -2,8 +2,9 @@
   include 'header.php';
   include '../functions/token.php';
   require '../../../../db_info/db.php';
+  require '../functions/insert.php';
   
-  var_dump($token, $fall, $winter, $spring, $summer);
+  //var_dump($token, $fall, $winter, $spring, $summer);
 
   ?>
     
@@ -51,7 +52,7 @@
       <div>
          <input type="submit" value="Submit" name="submit">
       </div>
-</div>
+    </div>  
     </form><br>
     
     
