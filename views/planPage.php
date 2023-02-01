@@ -1,16 +1,15 @@
 <?php
   include 'header.php';
   include '../functions/token.php';
-  require '../../../../db_info/db.php';
-  require '../functions/insert.php';
+  include_once '../../../../db_info/db.php';
+  include '../functions/insert.php';
   
   //var_dump($token, $fall, $winter, $spring, $summer);
 
   ?>
     
-    
     <!-- Four quarters representing Fall, Winter, Spring and Summer -->
-    <form action="" method="post">
+    <form method="post">
       
     <!-- Token -->
       <div class="container text-center">
@@ -50,7 +49,7 @@
           </div>
       </div><br>
       <div>
-         <input type="submit" value="Submit" name="submit">
+         <input type="submit" value="Submit" name="submitForm">
       </div>
     </div>  
     </form><br>
