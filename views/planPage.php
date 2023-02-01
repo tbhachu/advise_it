@@ -1,21 +1,8 @@
 <?php
   include 'header.php';
+  include '../functions/token.php';
+  require '../../../../db_info/db.php';
   
-  $token = "";
-
-  function random_strings()
-  {
-    $token = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-
-    return substr(str_shuffle($token), 0, 6);
-  }
-
-  $token = random_strings();
-  $fall = $_POST["fall"];
-  $winter = $_POST["winter"];
-  $spring = $_POST["spring"];
-  $summer = $_POST["summer"];
-
   var_dump($token, $fall, $winter, $spring, $summer);
 
   ?>
@@ -62,7 +49,7 @@
           </div>
       </div><br>
       <div>
-         <input type="submit" value="Submit">
+         <input type="submit" value="Submit" name="submit">
       </div>
 </div>
     </form><br>
