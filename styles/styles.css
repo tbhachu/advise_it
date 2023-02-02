@@ -40,15 +40,16 @@
 
 
 footer {
-  padding-top: 10px;
-  padding-bottom: 0px;
-  position: fixed;
-  bottom: 0;
   width: 100%;
-
+  position: relative;
+  background-color: rgba(36, 36, 34, 0.973);
 }
 
 textarea {
   width: 200px;
   height: 160px;
+}
+
+#form {
+  margin-bottom: 500px;
 }

@@ -1,27 +1,23 @@
 
-
-    <br>
-    
-    <footer class="bottom bg-dark text-white">
-        <div class="container text-center text-md-left">
-            <div class="row text-center text-md-left">
-                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Links</h5>
-                        <a href="admin.php">Admin</a>
-                </div>
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contact</h5>
-                        <p>GRC Auburn Center</p>
-                        <p>1221 D St NE, Auburn, WA 98002</p>
-                        <p>software@greenriver.edu</p>
-                </div>
+    <section class="">
+        <footer class="text-center text-white fixed-bottom">
+            <div class="container p-4 pb-0">
+                <section class="">
+                    <p class="d-flex justify-content-center align-items-center">
+                    <span class="me-3">Admin Login</span>
+                    <button type="button" class="btn btn-outline-light btn-rounded">
+                        Login
+                    </button>
+                    </p>
+                </section>
             </div>
-        </div>
-    </footer>
-    
-    
-
-
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2023 Copyright:
+                <a class="text-white" href="">Green River College</a>
+            </div>
+        </footer>
+    </section>
+   
     <script src="../scripts/script.js"></script>
   </body>
 </html>
